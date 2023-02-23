@@ -2229,11 +2229,17 @@ main >.inner {
   top: -10%;
   left: -10%;
 }
-.social .item.::before {
-  background-color: ;
+.social .item.github::before {
+  background-color: #191717;
 }
-.social .item. i {
-  color: ;
+.social .item.github i {
+  color: #191717;
+}
+.social .item.csdn::before {
+  background-color: #1e88e5;
+}
+.social .item.csdn i {
+  color: #1e88e5;
 }
 .social .item:focus i,
 .social .item:hover i {
